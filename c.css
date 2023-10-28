@@ -1,0 +1,117 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(#63acb0, #1d3679);
+  /* background-image: url(./image/BG.jpeg);
+  background-size: cover;
+  filter: blur(5px);
+  -webkit-filter: blur(5px); */
+}
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 100px;
+  font-size: 40px;
+  margin-left: 550px;
+}
+
+h2 span {
+  color: #ffffff;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.link img {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 30px;
+  /* margin-left: 5px; */
+  position: absolute;
+  top: 0;
+  color: #fff;
+}
+
+.card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 40px 135px;
+  /* background-image: url(./Image/p); */
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.col .card1 {
+  background-image: url(Image/batik.jpg);
+  padding: 0px;
+}
+
+/* .col .card1 h4 {
+  margin-right: 100px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.col .card1 h4 p {
+  margin-right: 100px;
+} */
+
+.card2 {
+  background-image: url(Image/wayang.jpg);
+  padding: 0;
+}
+
+.card3 {
+  background-image: url(Image/Set-lengkap-Gamelan-Jawa-1.width-800.format-webp.webp);
+  padding: 11px;
+}
+
+.card4 {
+  background-image: url(Image/tari.jpeg);
+  padding: 11px;
+}
+
+.card5 {
+  background-image: url(Image/rumah-gadang-minangkabau.jpeg);
+  padding: 10px;
+}
+
+.card6 {
+  background-image: url(Image/naspad.jpeg);
+  padding: 22px;
+}
+
+.card7 {
+  background-image: url(Image/kebaya.jpg);
+  padding: 10px;
+}
+
+.card8 {
+  background-image: url(Image/upacara.jpg);
+  padding: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h4 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 5px #fff;
+  font-size: 15px;
+  color: white;
+}

@@ -1,0 +1,501 @@
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1b3e41;
+  margin: 0;
+  padding: 0;
+}
+
+.ab {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Image/pexels-timur-kozmenko-2474690.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+/* button {
+  width: 180px;
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 24px;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  margin-left: 100px;
+} */
+
+.column {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-left: 96px;
+  margin-bottom: -45px;
+}
+
+p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  margin-left: 100px;
+}
+/* .con {
+  padding: 2rem;
+}
+
+.slider-wapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.5rem;
+  margin-left: -270px;
+  margin-right: -270px;
+  margin-top: -40px;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: over;
+  /* margin-left: -150px;
+  margin-right: -150px;
+  margin-top: -11px;
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 1;
+} */
+
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #fff;
+  font-size: 100px;
+  font-size: 40px;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+
+h2 span {
+  color: #0b181a;
+}
+
+/* .card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+} */
+
+.card1 {
+  background-image: url(Image/batik.jpg);
+  padding: 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+/* .col .card1 h4 {
+  margin-right: 100px;
+}
+
+.col .card1 h4 p {
+  margin-right: 100px;
+} */
+
+.card2 {
+  background-image: url(Image/wayang.jpg);
+  padding: 0;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 20px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card3 {
+  background-image: url(Image/Set-lengkap-Gamelan-Jawa-1.width-800.format-webp.webp);
+  padding: 11px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card4 {
+  background-image: url(Image/tari.jpeg);
+  padding: 11px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card5 {
+  background-image: url(Image/rumah-gadang-minangkabau.jpeg);
+  padding: 10px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card6 {
+  background-image: url(Image/naspad.jpeg);
+  padding: 22px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card7 {
+  background-image: url(Image/kebaya.jpg);
+  padding: 10px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card8 {
+  background-image: url(Image/upacara.jpg);
+  padding: 10px;
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 10px 45px 90px;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h4 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  text-align: left;
+}
+
+.card p {
+  text-shadow: 0 0 5px #fff;
+  font-size: 15px;
+  color: white;
+  margin-left: 2px;
+}
+
+/* #destination {
+  background-color: rgb(56, 56, 56);
+  height: 115vh;
+  width: 100%;
+}
+
+.title {
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+}
+
+.title span {
+  border-bottom: 2px solid white;
+}
+
+.kotak1 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -15px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.kotak2 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 62px;
+}
+
+.kotak3 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 510px;
+  margin-top: -15px;
+}
+
+.kotak4 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 740px;
+  margin-top: 62px;
+}
+
+.kotak5 {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 980px;
+  margin-top: -13px;
+}
+
+.deskripsi1 {
+  width: 200px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 185px;
+  box-shadow: 2px;
+}
+
+.deskripsi2 {
+  width: 200px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 260px;
+}
+
+.deskripsi3 {
+  width: 200px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 510px;
+  margin-top: 185px;
+}
+
+.deskripsi4 {
+  width: 200px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 740px;
+  margin-top: 260px;
+}
+
+.deskripsi5 {
+  width: 200px;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 980px;
+  margin-top: 185px;
+}
+
+.labuan-bajo {
+  font-size: 1.2rem;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 160px;
+  margin-left: 30px;
+}
+
+.bali {
+  font-size: 1.2rem;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 160px;
+  margin-left: 35px;
+}
+
+.bromo {
+  font-size: 1.2rem;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  margin-top: 160px;
+  margin-left: 16px;
+}
+
+.pink-beach {
+  font-size: 1.2rem;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 160px;
+  margin-left: 42px;
+}
+
+.candi-borobudur {
+  font-size: 1.2rem;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 135px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.labuan-bajo-teks {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pantai-kuta-teks {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.gunung-bromo-teks {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pink-beach-teks {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.candi-teks {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+} */

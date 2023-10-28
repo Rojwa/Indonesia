@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color:aliceblue;
+    height: 860px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 2rem 1em;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 50px ;
+}
+
+.column {
+    width: 100%;
+    padding: 0.5em 0.5em;
+}
+
+.card {
+    width: auto;
+    height: 560px;
+    box-shadow: 0 0 2.5em;
+    padding: 3.5em 2em;
+    border-radius: 0.6em;
+    color: #1f003b;
+    cursor: pointer;
+
+}
+
+.card .img-container { 
+    width: 11em;
+    height: 11em;
+    background-color: #7dafc2;
+    padding: 0.5em;
+    border-radius: 70%;
+    margin: 50px auto 2em auto;
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 70%;
+}
+
+.card h3 {
+    font-weight: 600;
+}
+
+.card p {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 0 0;
+    letter-spacing: 1px;
+}
+
+.card h4 {
+    margin: 20px 0 50px 0;
+}
+
+.icons {
+    width: 50%;
+    margin:auto;
+    min-width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.6em;
+
+}
+
+.card:hover {
+    background-image: linear-gradient(#014871, #a0ebcf);
+    color: white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.footer {
+    background-color: #0b2545;
+}
+
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    /* padding: 25px; */
+    margin: 24px;
+    margin-left: 250px;
+    margin-bottom: 80px;
+    height: 50px;
+    width: 50px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip{
+    position: absolute;
+    top: 0;
+    font-size: 0.8rem;
+    background: #fff;
+    padding: 5px 8px;    
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover:hover .tooltip,
+.wrapper .instagram:hover:hover .tooltip::before{
+    background-color: #c32aa3;
+    color: #fff;
+}
+
+.wrapper .twitter:hover:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before{
+    background-color: #1ca7ec;
+    color: #fff;
+}
+
+.wrapper .youtube:hover:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before{
+    background-color: #ff0000;
+    color: #fff;
+    
+}
+
+/* .fuuter {
+    background-color: #0b2545;
+    list-style: none;
+}
+
+.fuuter-container {
+    width: 100%; 
+    padding-top: 50px;
+    padding-bottom: 30px;
+    height: 190px;
+
+}
+
+.sosial-icon {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sosial-icon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.sosial-icon a i {
+    font-size: 2em;
+    color: black;
+    /* opacity: 0.9; */
+    /* border-radius: 50%;
+} */
+
+/* .sosial-icon a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.sosial-icon a:hover i {
+    background-color: white;
+    transition: 0.5s;
+} */
+
+/* .fuuter-nav {
+    margin: 30px;
+    width: 1283px;
+}
+
+.fuuter-nav ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+
+.fuuter-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    opacity: 0.7;
+}
+
+.fuuter-nav ul li a:hover {
+    opacity: 1;
+} */
+
+*,
+*::before, 
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-nav {
+    height: 200px;
+    width: 99vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+
+}
+
+a::before,
+a::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #18f08b;
+    transition: 0.5s;
+
+}
+
+a:after {
+    left: 0;
+    bottom: -10px;
+}
+
+a::before {
+    right: 0;
+    top: -10px;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:hover:after,
+a:hover:before {
+    width: 100%;
+}
+
+
+.footer-bottom {
+    background-color:black;
+    padding:20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+
+.h-1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    opacity: 0.7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.h-1:hover {
+    opacity: 3;
+    background: -webkit-linear-gradient(#58b2a0, #e0ecde);
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} 
